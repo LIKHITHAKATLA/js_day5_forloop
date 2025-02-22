@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for loop</title>
+</head>
+<body>
+    <script>
+        // print numbers from 1-10 and 10-1 without using < or > operators
+        for(var i = 0;true;i++){
+            console.log(i)
+            if(i == 10){
+            break;
+        }
+    }
+
+    for(var i = 10;true;i--){
+            console.log(i)
+            if(i == 1){
+            break;
+        }
+    }
+    // print the sum of number upto 20
+    sum = 0
+    for(var i = 0;i <= 20;i++){
+        sum = sum + i
+    }
+    console.log(sum)
+
+    // 3.print the sum of even numbers upto 50
+
+    sum = 0
+    for(var i = 0;i <= 50;i++){
+        if(i % 2 == 0){
+        sum = sum + i
+        }
+    }
+    console.log(sum)
+
+
+    </script>
+</body>
+</html>
